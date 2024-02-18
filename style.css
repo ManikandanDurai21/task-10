@@ -1,0 +1,32 @@
+.container{
+    width: 60%;
+    margin: auto; 
+    margin-top: 10%;
+    margin-left: 50%;
+    border-radius: 50%;
+   position: relative;
+}
+.child-1 {
+position:absolute;
+width: 250px;
+height: 250px;
+padding-top:15px;
+background-color: floralwhite;
+top: 40%;
+left: 25%;
+text-align: center;
+z-index: 2;
+
+
+}
+.child-3{
+    position: absolute;
+    top: 55%;
+  left: 30%;
+z-index: 1;
+}
+.heading{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: x-large;
+}
